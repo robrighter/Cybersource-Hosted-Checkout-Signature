@@ -1,0 +1,1 @@
+Cybersource provides a PCI compliant hosted order processing system that allows silent Post and redirect payment processing. Unfortunately, Ruby is not one of the Cybersource supported programming languages. This Ruby class is a port of the Cybersource signature generation tool. It includes all of the functions necessary to use Cybersource's hosted ordering system with Rails.
