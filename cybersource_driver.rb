@@ -65,7 +65,7 @@ class CyberSourceDriver
   end
   
   def verifySignature(data, signature)
-      ((hopHash(data, PUBLIC_KEY).to_s == signatureto_s))
+      ((hopHash(data, PUBLIC_KEY).to_s == signature.to_s))
   end
   
   def verifyTransactionSignature(message)
